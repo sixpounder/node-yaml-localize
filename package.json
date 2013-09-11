@@ -18,8 +18,10 @@
     "node",
     "yaml",
     "localization",
-    "i18n"
+    "i18n",
+    "middleware",
+    "helper"
   ],
   "author": "Andrea Coronese",
-  "license": "DBAD"
+  "license": "BSD"
 }
