@@ -1,0 +1,25 @@
+{
+  "name": "node-yaml-localize",
+  "version": "0.0.1",
+  "private": true,  
+  "dependencies": {
+    "js-yaml": "*"
+  },
+  "readmeFilename": "Readme.md",
+  "description": "node-yaml-localize\r =========",  
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sixpounder/node-yaml-localize.git"
+  },
+  "keywords": [
+    "node",
+    "yaml",
+    "localization",
+    "i18n"
+  ],
+  "author": "Andrea Coronese",
+  "license": "DBAD"
+}
