@@ -6,9 +6,9 @@
     "js-yaml": "*"
   },
   "readmeFilename": "Readme.md",
-  "description": "node-yaml-localize\r =========",  
+  "description": "node-yaml-localize\r ========= A simple nodejs module to localize your applications with yaml files (rails-like)",
   "directories": {
-    "test": "test"
+    "lib": "lib"
   },
   "repository": {
     "type": "git",
