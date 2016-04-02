@@ -21,7 +21,7 @@ var localize = require('node-yaml-localize');
 
 app.use(localize.middleware({
     path: __dirname + "/config/locales",
-    locale: function() {
+    locale: function(req, res) {
         // Check if we are using sessions
         if (typeof req.session !== 'undefined') {
             return req.session.locale || 'en';
@@ -29,7 +29,7 @@ app.use(localize.middleware({
             return req.param('locale') || 'en';
         }
     }
-});
+}));
 ```
 
 where <i>path</i> is the root of the directory structure containing your yaml files (defaults to <__dirname>/config/locales) and <i>locale</i> is a string or a function returning a string identifying a locale to use on each request (edit the implementation for your needs, this is just an example).
